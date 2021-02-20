@@ -14,7 +14,6 @@ C:\Users\krish\source\repos\GrpcDemo\GrpcServer\bin\Debug\net5.0\Grpc.Core.Api.d
 C:\Users\krish\source\repos\GrpcDemo\GrpcServer\bin\Debug\net5.0\Grpc.Net.Client.dll
 C:\Users\krish\source\repos\GrpcDemo\GrpcServer\bin\Debug\net5.0\Grpc.Net.ClientFactory.dll
 C:\Users\krish\source\repos\GrpcDemo\GrpcServer\bin\Debug\net5.0\Grpc.Net.Common.dll
-C:\Users\krish\source\repos\GrpcDemo\GrpcServer\obj\Debug\net5.0\GrpcServer.csprojAssemblyReference.cache
 C:\Users\krish\source\repos\GrpcDemo\GrpcServer\obj\Debug\net5.0\GrpcServer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\krish\source\repos\GrpcDemo\GrpcServer\obj\Debug\net5.0\GrpcServer.AssemblyInfoInputs.cache
 C:\Users\krish\source\repos\GrpcDemo\GrpcServer\obj\Debug\net5.0\GrpcServer.AssemblyInfo.cs
@@ -29,3 +28,4 @@ C:\Users\krish\source\repos\GrpcDemo\GrpcServer\obj\Debug\net5.0\GrpcServer.dll
 C:\Users\krish\source\repos\GrpcDemo\GrpcServer\obj\Debug\net5.0\ref\GrpcServer.dll
 C:\Users\krish\source\repos\GrpcDemo\GrpcServer\obj\Debug\net5.0\GrpcServer.pdb
 C:\Users\krish\source\repos\GrpcDemo\GrpcServer\obj\Debug\net5.0\GrpcServer.genruntimeconfig.cache
+C:\Users\krish\source\repos\GrpcDemo\GrpcServer\obj\Debug\net5.0\GrpcServer.csprojAssemblyReference.cache

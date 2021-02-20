@@ -15,6 +15,12 @@ namespace GrpcClient
             //var reply = await client.SayHelloAsync(input);
             //Console.WriteLine(reply.Message);
 
+            var clientRequested = new CustomerLookupModel { UserId = 1 };
+            var channel = GrpcChannel.ForAddress("https://localhost:5001");
+            var client = new Customer.CustomerClient(channel);
+            var customer = await client.GetCustomerInfoAsync(clientRequested);
+            Console.WriteLine($"{customer.FirstName} {customer.LastName} , {customer.Age} ") ;
+                
             Console.ReadLine();
         }
     }

@@ -9,7 +9,6 @@ C:\Users\krish\source\repos\GrpcDemo\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Cor
 C:\Users\krish\source\repos\GrpcDemo\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
 C:\Users\krish\source\repos\GrpcDemo\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
 C:\Users\krish\source\repos\GrpcDemo\GrpcClient\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\krish\source\repos\GrpcDemo\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csprojAssemblyReference.cache
 C:\Users\krish\source\repos\GrpcDemo\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.AssemblyInfoInputs.cache
 C:\Users\krish\source\repos\GrpcDemo\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.AssemblyInfo.cs
 C:\Users\krish\source\repos\GrpcDemo\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csproj.CoreCompileInputs.cache
@@ -17,3 +16,4 @@ C:\Users\krish\source\repos\GrpcDemo\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClie
 C:\Users\krish\source\repos\GrpcDemo\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.dll
 C:\Users\krish\source\repos\GrpcDemo\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.pdb
 C:\Users\krish\source\repos\GrpcDemo\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.genruntimeconfig.cache
+C:\Users\krish\source\repos\GrpcDemo\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csprojAssemblyReference.cache
