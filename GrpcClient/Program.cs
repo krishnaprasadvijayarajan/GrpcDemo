@@ -1,4 +1,5 @@
-﻿using Grpc.Net.Client;
+﻿using Grpc.Core;
+using Grpc.Net.Client;
 using GrpcServer;
 using System;
 using System.Threading.Tasks;
@@ -17,10 +18,20 @@ namespace GrpcClient
 
             var clientRequested = new CustomerLookupModel { UserId = 2 };
             var channel = GrpcChannel.ForAddress("https://localhost:5001");
-            var client = new Customer.CustomerClient(channel);
-            var customer = await client.GetCustomerInfoAsync(clientRequested);
+            var customerClient = new Customer.CustomerClient(channel);
+            var customer = await customerClient.GetCustomerInfoAsync(clientRequested);
             Console.WriteLine($"{customer.FirstName} {customer.LastName} , {customer.Age} ") ;
-                
+            Console.WriteLine();
+            Console.WriteLine("New Customer List");
+            using (var call = customerClient.GetNewCustomers(new NewCustomerRequest()))
+            {
+                while(await call.ResponseStream.MoveNext())
+                {
+                    var currentCustomer = call.ResponseStream.Current;
+                    Console.WriteLine($"{currentCustomer.FirstName}, {currentCustomer.LastName} : {currentCustomer.EmailAddress}");
+                }
+            }
+
             Console.ReadLine();
         }
     }
